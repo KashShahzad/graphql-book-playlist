@@ -3,8 +3,7 @@ const Schema = mongoose.Schema;
 
 const authorSchema = new Schema({
   name: String,
-  genre: String,
-  authorId: String,
+  age: Number,
 });
 
 //model is actually collection in the database
